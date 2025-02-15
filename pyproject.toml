@@ -1,12 +1,11 @@
 [project]
-name = "Demo_representation"
+name = "demo_representation"
 version = "2.14.0"
 description = ""
 authors = [
     {name = "Andrejev Denis",email = "andrejevdenis00@gmail.com"}
 ]
 readme = "README.md"
-package-mode = false
 
 requires-python = ">=3.12,<4.0"
 dependencies = [
