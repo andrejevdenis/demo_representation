@@ -1,8 +1,10 @@
 [project]
 name = "Demo_representation"
-version = "2.9.0"
+version = "2.10.0"
 description = ""
-authors = ["Andrejev Denis <andrejevdenis00@gmail.com>"]
+authors = [
+    {name = "Andrejev Denis",email = "andrejevdenis00@gmail.com"}
+]
 readme = "README.md"
 
 requires-python = ">=3.12,<4.0"
