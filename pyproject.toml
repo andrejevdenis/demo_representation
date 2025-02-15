@@ -1,4 +1,4 @@
-[project]
+[tool.poetry]
 name = "demo-representation"
 version = "0.1.0"
 description = ""
@@ -6,6 +6,8 @@ authors = [
     {name = "Andrejev Denis",email = "andrejevdenis00@gmail.com"}
 ]
 readme = "README.md"
+
+[tool.poetry.dependencies]
 requires-python = ">=3.12,<4.0"
 dependencies = [
     "selene (==2.0.0rc9)",
