@@ -21,7 +21,7 @@ version = "0.1.0"
 description = ""
 authors = ["Andrejev Denis <andrejevdenis00@gmail.com>"]
 readme = "README.md"
-packages = [{include = "demo_representation"}]
+packages = [{include = "./"}]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
