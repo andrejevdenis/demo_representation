@@ -1,0 +1,8 @@
+.idea/
+__pycache__/
+allure-results/
+allure/
+tests/app_iosgit init
+.env
+for_tests.py
+citilink_remote.appiumsession

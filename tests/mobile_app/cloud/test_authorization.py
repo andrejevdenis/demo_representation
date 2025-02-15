@@ -1,0 +1,21 @@
+import allure
+from allure_commons.types import Severity
+from tests.mobile_app.page.page_steps import Page_steps
+from tests.mobile_app.page.page_asserts import Page_asserts
+
+import time
+page_steps=Page_steps()
+page_asserts=Page_asserts()
+
+@allure.tag('E2E Mobile cloud')
+@allure.feature('Authorization')
+@allure.story('Successful user authorization')
+@allure.title('User authorization test')
+@allure.severity(Severity.CRITICAL)
+@allure.label("owner", "AndreevDK")
+@allure.link('https://www.dns-shop.ru/', name='DNS SHOP digital and household devices store')
+def test_users_authorization():
+        time.sleep(3)
+        page_steps.authorization()
+        page_asserts.authorization()
+
