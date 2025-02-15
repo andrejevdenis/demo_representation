@@ -1,3 +1,4 @@
+package-mode = false
 requires-python = ">=3.12,<4.0"
 dependencies = [
     "selene (==2.0.0rc9)",
@@ -16,7 +17,6 @@ dependencies = [
 ]
 
 [tool.poetry]
-package-mode = false
 name = "demo-representation"
 version = "0.1.0"
 description = ""
