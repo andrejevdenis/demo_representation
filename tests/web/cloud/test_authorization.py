@@ -1,7 +1,7 @@
 import allure
 from allure_commons.types import Severity
-from tests.web.page.page_steps import Page_steps
-from tests.web.page.page_asserts import Page_asserts
+from page.web.page_steps import Page_steps
+from page.web.page_asserts import Page_asserts
 
 page_steps=Page_steps()
 page_asserts=Page_asserts()

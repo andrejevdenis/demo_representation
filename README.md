@@ -58,7 +58,7 @@ For example used: [Demoshop](https://demowebshop.tricentis.com/)
 ## 🧰 How to Build
 
 To build autotests in Jenkins:
-1. Open [project](https://jenkins.autotests.cloud/job/demo-representation/)
+1. Open<div style="font-size: 16px; display: inline;">  <a href="https://jenkins.autotests.cloud/job/demo-representation/">  <b>Jenkins Project</b>  </a></div>
 2. Choose Build with parameters
 3. If necessary, change the parameters by selecting values from lists
 4. Push Build
@@ -82,7 +82,7 @@ https://developer.android.com/studio?hl
 
 # Run project to build first allure report
 pytest tests --context={choices}
-choices=['app_cloud','app_local_real','all','mobile','local','cloud', 'web', 'web_cloud', 'web_local', 'api', 'api_local', 'api_cloud']
+choices=['app_cloud','app_local_real','all','mobile_app','local','cloud', 'web', 'web_cloud', 'web_local', 'api', 'api_local', 'api_cloud']
 
 # Build allure report
 allure/bin/allure.bat serve allure-results

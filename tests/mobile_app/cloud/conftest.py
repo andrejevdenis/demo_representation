@@ -6,7 +6,8 @@ from selene import browser, support
 import allure_commons
 from appium import webdriver
 import os
-from tests.mobile_app.utils import attach
+from utils.mobile_app import attach
+
 
 @pytest.fixture(scope='function', autouse=True)
 def mobile_management(context):
@@ -14,7 +15,7 @@ def mobile_management(context):
     with allure.step('Set options'):
         from config_mobile import config_app
         options = config_app.to_mobile_driver_options(context='app_cloud')
-        if context in ('all', 'cloud', 'mobile', 'app_cloud'):
+        if context in ('all', 'cloud', 'mobile_app', 'app_cloud'):
             browser.config.driver = webdriver.Remote(options.get_capability('remote_url'), options=options)
         else:
             pytest.skip()

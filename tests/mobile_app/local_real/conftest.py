@@ -14,7 +14,7 @@ def mobile_management(context):
     with allure.step('Set options'):
         from config_mobile import config_app
         options = config_app.to_mobile_driver_options(context='app_local_real')
-        if context in ('all', 'mobile', 'local', 'app_local_real'):
+        if context in ('all', 'mobile_app', 'local', 'app_local_real'):
             browser.config.driver = webdriver.Remote(options.get_capability('remote_url'), options=options)
         else:
             pytest.skip()

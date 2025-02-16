@@ -37,7 +37,7 @@ class Page_steps:
                 'Upgrade-Insecure-Requests': '1',
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
                 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
-                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-mobile_app': '?0',
                 'sec-ch-ua-platform': '"Windows"'
             }
 
@@ -72,7 +72,7 @@ class Page_steps:
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
                 'X-Requested-With': 'XMLHttpRequest',
                 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
-                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-mobile_app': '?0',
                 'sec-ch-ua-platform': '"Windows"'
             }
 
@@ -105,7 +105,7 @@ class Page_steps:
                 'Upgrade-Insecure-Requests': '1',
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
                 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
-                'sec-ch-ua-mobile': '?0',
+                'sec-ch-ua-mobile_app': '?0',
                 'sec-ch-ua-platform': '"Windows"'
             }
 
@@ -121,8 +121,6 @@ class Page_steps:
             attribute_value = element.get("value")
             if element:
                 print(f'Cart_ID:{attribute_value}')
-            else:
-                print("Element not found.")
 
 
         with step("Cart clear"):

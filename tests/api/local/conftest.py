@@ -4,7 +4,7 @@ from allure_commons._allure import step
 import allure_commons
 import pytest
 from selene import browser, support
-from tests.web.utils import attach
+from utils.web import attach
 from dotenv import load_dotenv
 
 @pytest.fixture(scope='function', autouse=True)
