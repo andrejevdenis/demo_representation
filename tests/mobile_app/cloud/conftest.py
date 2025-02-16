@@ -12,7 +12,7 @@ from tests.mobile_app.utils import attach
 def mobile_management(context):
 
     with allure.step('Set options'):
-        from config_all import config_app
+        from config_mobile import config_app
         options = config_app.to_mobile_driver_options(context='app_cloud')
         if context in ('all', 'cloud', 'mobile', 'app_cloud'):
             browser.config.driver = webdriver.Remote(options.get_capability('remote_url'), options=options)

@@ -1,6 +1,6 @@
 import requests
 import allure
-from config_all import config_app
+from config_mobile import config_app
 
 def attach_bstack_video(session_id):
 

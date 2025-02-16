@@ -12,14 +12,14 @@ import os
 def mobile_management(context):
 
     with allure.step('Set options'):
-        from config_all import config_app
+        from config_mobile import config_app
         options = config_app.to_mobile_driver_options(context='app_local_real')
         if context in ('all', 'mobile', 'local', 'app_local_real'):
             browser.config.driver = webdriver.Remote(options.get_capability('remote_url'), options=options)
         else:
             pytest.skip()
 
-    browser.config.timeout = float(os.getenv('timeout', '10.0'))
+    browser.config.timeout = float(os.getenv('timeout', '5.0'))
     browser.config._wait_decorator = support._logging.wait_with(context=allure_commons._allure.StepContext)
 
     yield
