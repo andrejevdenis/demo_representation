@@ -58,7 +58,7 @@ For example used: [Demoshop](https://demowebshop.tricentis.com/)
 ## 🧰 How to Build
 
 To build autotests in Jenkins:
-1. Open <div style="font-size: 16px; display: inline;">  <a href="https://jenkins.autotests.cloud/job/demo-representation/">  <b>Jenkins Project</b>  </a></div>
+1. Open <font size="4">[Jenkins project](https://jenkins.autotests.cloud/job/demo-representation/)</font>
 2. Choose Build with parameters
 3. If necessary, change the parameters by selecting values from lists
 4. Push Build
