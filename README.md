@@ -78,12 +78,11 @@ allure/bin/allure.bat serve allure-results
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_result.png" width="630" height="320"/>
 
 ### Attached is a video of the test
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Mobile_test_example.gif" width="360" height="800"/>
 
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Mobile_test_example.webp" width="360" height="800"/>
 
 ### Notification received of Jenkins build results in Telegram bot
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Telegram.png" width="345" height="320"/>
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Telegram.png" width="340" height="320"/>
 
 ### After all we have generated test cases
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_cases.png" width="630" height="320"/>
