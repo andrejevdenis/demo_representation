@@ -80,9 +80,7 @@ allure/bin/allure.bat serve allure-results
 ### Attached is a video of the test
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Mobile_test_example.gif" width="360" height="800"/>
 
-<video width="360" height="800" controls>
-  <source src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Mobile_test_example.mp4" type="video/mp4">
-</video>
+[![Watch the video](https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Video_icon.png)](https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Mobile_test_example.mp4)
 
 ### Notification received of Jenkins build results in Telegram bot
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Telegram.png" width="345" height="320"/>
