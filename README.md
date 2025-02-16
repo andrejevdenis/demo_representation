@@ -15,13 +15,16 @@ I'll take some simple positive tests, to show:
 
 ## 🚩 Objects for tests
 #### Mobile
+For example used: [DNS-SHOP mobile](https://www.dns-shop.ru/)
 - User authorization is successful
 - Validation of search result
 - Adding product to cart is successful
 #### Web
+For example used: [Demoshop](https://demowebshop.tricentis.com/)
 - User authorization is successful
 - Adding product to cart is successful
 #### API
+For example used: [Demoshop](https://demowebshop.tricentis.com/)
 - User authorization is successful
 - Adding product to cart is successful
 - Clearing cart is successful
@@ -65,10 +68,12 @@ allure/bin/allure.bat serve allure-results
 ```
 ## ▶️ Examples of tools in action
 ### Allure report generated
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure1.png" width="630" height="320"/>
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_report.png" width="630" height="320"/>
+
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_report.png" width="630" height="320"/>
 
 ### Test statistics collected, bugs localized
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_test_ops_results.png" width="630" height="320"/>
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_results.png" width="630" height="320"/>
 
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_result.png" width="630" height="320"/>
 
@@ -76,13 +81,13 @@ allure/bin/allure.bat serve allure-results
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Mobile_test_example.gif" width="360" height="800"/>
 
 ### Notification received of Jenkins build results in Telegram bot
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Telegram.png" width="630" height="320"/>
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Telegram.png" width="350" height="320"/>
+
+### After all we have generated test cases
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_cases.png" width="630" height="320"/>
 
 ### Fast report creating with Jira integration
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Jira_integration.png" width="630" height="320"/>
 
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Jira_issue.png" width="630" height="320"/>
-
-### After all we have generated test cases
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_test_ops_cases.png" width="630" height="320"/>
 
