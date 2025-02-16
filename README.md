@@ -4,14 +4,14 @@
 - [The aim](#-the-aim)
 - [Objects for tests](#-objects-for-tests)
 - [How to Build](#-how-to-build)
-- [Examples of tools in action](#-examples-of-tools-in-action)
+- [Examples of tools in action](#%EF%B8%8F-examples-of-tools-in-action)
 
 ## 🎯 The aim
 I'll take some simple positive tests, to show:
 - how I bild structure of work directory
 - how I solve problems for launch same tests for cloud and local
 - prepared Jenkins build to simple launch wanted tests
-- examples of tools in action 
+- examples of tools in action  
 
 ## 🚩 Objects for tests
 #### Mobile
@@ -80,8 +80,12 @@ allure/bin/allure.bat serve allure-results
 ### Attached is a video of the test
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Mobile_test_example.gif" width="360" height="800"/>
 
+<video width="360" height="800" controls>
+  <source src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Mobile_test_example.mp4" type="video/mp4">
+</video>
+
 ### Notification received of Jenkins build results in Telegram bot
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Telegram.png" width="350" height="320"/>
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Telegram.png" width="345" height="320"/>
 
 ### After all we have generated test cases
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_cases.png" width="630" height="320"/>
@@ -91,3 +95,4 @@ allure/bin/allure.bat serve allure-results
 
 <img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Jira_issue.png" width="630" height="320"/>
 
+[Back to top](#top)
