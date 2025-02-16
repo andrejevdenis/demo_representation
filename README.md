@@ -3,8 +3,8 @@
 ## Table of Contents
 - [The aim](#-the-aim)
 - [Objects for tests](#-objects-for-tests)
-- [How to Build](#-how-to-build)
 - [Examples of tools in action](#%EF%B8%8F-examples-of-tools-in-action)
+- [How to Build](#-how-to-build)
 
 ## 🎯 The aim
 I'll take some simple positive tests, to show:
@@ -28,6 +28,32 @@ For example used: [Demoshop](https://demowebshop.tricentis.com/)
 - User authorization is successful
 - Adding product to cart is successful
 - Clearing cart is successful
+
+## ▶️ Examples of tools in action
+### Allure report generated
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_report.png" width="630" height="320"/>
+
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_report.png" width="630" height="320"/>
+
+### Test statistics collected, bugs localized
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_results.png" width="630" height="320"/>
+
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_result.png" width="630" height="320"/>
+
+### Attached is a video of the test
+
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Mobile_test_example.webp" width="360" height="800"/>
+
+### Notification received of Jenkins build results in Telegram bot
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Telegram.png" width="340" height="320"/>
+
+### After all we have generated test cases
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_cases.png" width="630" height="320"/>
+
+### Fast report creating with Jira integration
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Jira_integration.png" width="630" height="320"/>
+
+<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Jira_issue.png" width="630" height="320"/>
 
 ## 🧰 How to Build
 
@@ -66,30 +92,5 @@ allure/bin/allure.bat serve allure-results
 1. Check installed python packages. Use pip install for frameworks from pyproject.toml
 2. Check path environment variable windows
 ```
-## ▶️ Examples of tools in action
-### Allure report generated
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_report.png" width="630" height="320"/>
-
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_report.png" width="630" height="320"/>
-
-### Test statistics collected, bugs localized
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_results.png" width="630" height="320"/>
-
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_result.png" width="630" height="320"/>
-
-### Attached is a video of the test
-
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Mobile_test_example.webp" width="360" height="800"/>
-
-### Notification received of Jenkins build results in Telegram bot
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Telegram.png" width="340" height="320"/>
-
-### After all we have generated test cases
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Allure_testops_cases.png" width="630" height="320"/>
-
-### Fast report creating with Jira integration
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Jira_integration.png" width="630" height="320"/>
-
-<img src="https://github.com/andrejevdenis/demo_representation/blob/master/Icons/Jira_issue.png" width="630" height="320"/>
 
 [Back to top](#top)
