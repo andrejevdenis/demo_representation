@@ -1,4 +1,4 @@
-<h1 align="center">Demo representation of autotest workflow 
+<h1 align="center">Representation of autotest workflow 
 
 ## Table of Contents
 - [The aim](#-the-aim)
